@@ -1,0 +1,83 @@
+/* styles.css */
+
+/* General Styles */
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Header */
+header {
+  background-image: url("header-background.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1.25rem;
+}
+
+/* About Section */
+#about {
+  padding: 2rem 0;
+}
+
+#about img {
+  border-radius: 10px;
+}
+
+/* Services Section */
+#services .card {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+#services .card:hover {
+  transform: scale(1.05);
+}
+
+#services .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Contact Section */
+#contact {
+  padding: 2rem 0;
+}
+
+#contact form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  header p {
+    font-size: 1rem;
+  }
+
+  #services .card-img-top {
+    height: 150px;
+  }
+}
